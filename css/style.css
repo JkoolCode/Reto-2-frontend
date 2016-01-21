@@ -1,0 +1,36 @@
+#ajustar{
+    color: #7E8287; width: 95%; text-align: justify;
+}
+
+div.caption{
+    position:absolute;
+    top:0px;
+    width:100%;
+    background:#02918C;
+}
+div.caption h4{
+    font-size:1.1em;
+    color:#FFF;
+    font-weight:bold;
+}
+div.caption p{
+    color:#FFF;
+    line-height:1.0em;
+}
+
+//MOSTRAR INFO LIBRO
+.mostraInfo div{
+    display: none;
+}
+.mostraInfo div.caption{
+    display: none;
+}
+
+.mostraInfo:hover div{
+    display: block;
+	margin:1em;
+	padding: 2em;
+        height: 85%;
+	width: 83%;
+	text-align: center;
+}
